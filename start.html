@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Signup Form Pages</title>
+
+<style>
+	* {
+	margin: 0;
+	padding: 0;
+	box - sizing: border-box;
+	font-family: "Montserrat", serif;
+	
+}
+	body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(#feadb9, #f9e1e0, #4a7ba6, #9799ba);
+	color: black;
+
+}
+	.container {
+	margin: 0 15px;
+	border-color: black;
+}
+	.form-box {
+	width: 100%
+	max-width: 400px;
+	padding: 50px;
+	background: white;
+	border-radius: 10px;
+	border-color: black;
+	box-shadow: 0 0 10px black;
+}
+
+	
+	h2 {
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+	input {
+	width: 100%;
+	padding: 12px;
+	background: white;
+	border-radius: 6px;
+	border: 5px;
+	outline: none;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 20px;
+	border-color: black;
+}
+	button {
+	width: 100%
+	padding: 12px;
+	background-color: #9799ba;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer:
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+    transition: 0.5s;
+}
+	button:hover {
+	background: #4a7ba6;
+}
+	p {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+	p a {
+	background: #feadb9;
+	text-decoration: none;
+}
+	p a:hover{
+	text-decoration: underline;
+}
+
+</style>
+
+</head>
+<body>
+<div class="container">
+<div class="form-box active" id="login-form">
+<form action="/action_page.php">
+
+	<h2>Log In</h2>
+<label for="email"></label>
+<br>
+
+<input type="email" id="email" name="email" value="Email">
+<br>
+
+<label for="password"></label>
+<br>
+
+<input type="password" id="password" value="Password">
+<br>
+
+<button type="submit" value="login">Log in</button>
+	<p>Don't have an account yet? <a href#>Sign in here</a></p>
+</form>
+</div>
+
+<div class="form-box" id="signin-form">
+<form action="/action_page.php">
+	<h2>Sign In</h2>
+
+<label for="name"></label>
+<br>
+<input type="name" id="name" value="Name">
+<br>
+
+<label for="email"></label>
+<br>
+<input type="email" id="email" name="email" value="Email">
+<br>
+
+<label for="password"</label>
+<br>
+<input type="password" id="password" value="Password">
+<br>
+
+<button type="submit" value="login">Sign in</button>
+    <p>Already have an account? <a href#>Log in here</a></p>
+</body>
+</html>
